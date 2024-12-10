@@ -16,7 +16,7 @@ Please put the root directory of your dataset into the folder ./data/test. The r
         |-- abnormal
             |-- *.png
 ```
-### Training
+### Run the code for training
 
 ```
 python rec_train_rce.py
