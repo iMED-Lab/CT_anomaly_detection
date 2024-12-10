@@ -228,7 +228,7 @@ def test(viz, encoder, decoder,embedding, test_dataloader, loss, device):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--base_dir", type=str, default='/home/imed/personal/hhy/CT_detection/our_dataset_scan')
+    parser.add_argument("--base_dir", type=str, default='./data')
     # parser.add_argument("--test_domain",type=str, default={'ROSE-H'},help='OCTA500_3M, OCTA500_6M, ROSE-2, ROSE-O, ROSE-Z, ROSE-H')
     parser.add_argument("--gpu_id", type=str, default=[1], help="device")
     # parser.add_argument("--mode", type=str, default="train", choices=["train","val" "test"], help="train, val, test")
