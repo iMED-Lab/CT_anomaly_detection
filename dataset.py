@@ -100,7 +100,7 @@ class CT_norm(data.Dataset):
             file_dir = os.path.join(root + "/train")
             # gt_dir = '/media/imed/9bb6637f-ee14-4ce3-a368-215ff60d1391/ponu_ad/CT_detection_segmentation'
         else:
-            file_dir = os.path.join(root + "/test_new")
+            file_dir = os.path.join(root + "/test")
             # gt_dir = '/media/imed/9bb6637f-ee14-4ce3-a368-215ff60d1391/ponu_ad/CT_detection_segmentation'
         
         # img_lst = sorted(list(map(lambda x: os.path.join(img_dir, x), os.listdir(img_dir))))
