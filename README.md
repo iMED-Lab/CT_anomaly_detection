@@ -15,6 +15,10 @@ Please put the root directory of your dataset into the folder ./data/test. The r
         |-- normal
         |-- abnormal
             |-- *.png
-
+```
+### Training
 
 ```
+python rec_train_rce.py
+```
+
